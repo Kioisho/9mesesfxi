@@ -2,8 +2,8 @@
 .book {
   position: relative;
   border-radius: 10px;
-  width: 220px;
-  height: 300px;
+  width: 440px;
+  height: 600px;
   background-color: whitesmoke;
   -webkit-box-shadow: 1px 1px 12px #000;
   box-shadow: 1px 1px 12px #000;
@@ -22,6 +22,7 @@
   -ms-flex-pack: center;
   justify-content: center;
   color: #000000;
+  flex-direction: column;
 }
 
 .cover {
@@ -49,9 +50,12 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  z-index: 2;
 }
 
-.book:hover .cover {
+/* Sí, puedes borrar este bloque. No es necesario si no contiene reglas adicionales. */
+
+.book.open .cover {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   -webkit-transform: rotatey(-80deg);
@@ -59,8 +63,10 @@
   transform: rotatey(-80deg);
 }
 
+
+
 p {
-  font-size: 20px;
+  font-size: 40px;
   font-weight: bolder;
 }
 

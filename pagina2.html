@@ -6,9 +6,18 @@
   <!-- ...código existente... -->
 </head>
 
-<div class="book">
-    <p>Hello</p>
-    <div class="cover">
+<div class="book" id="book">
+    <img src="imagen.jpg" alt="Imagen" style="width: 80%; margin-bottom: 20px;">
+    <p style="margin-top: auto;">Hello</p>
+    <div class="cover" id="cover">
         <p>Hover Me</p>
     </div>
-   </div>
+</div>
+<script>
+  // Activar animación con clic
+  const cover = document.getElementById('cover');
+  const book = document.getElementById('book');
+  cover.addEventListener('click', function() {
+    book.classList.toggle('open');
+  });
+</script>
