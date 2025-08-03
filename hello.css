@@ -3,7 +3,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 44px 40px 44px;
+  padding: 80px 88px 80px 88px;
   box-shadow: rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   background-color: #e8e8e8;
   border-color: #ffe2e2;
@@ -37,8 +37,8 @@ button:hover {
 }
 
 button svg {
-  width: 64px;
-  height: 64px;
+  width: 150px;
+  height: 150px;
   fill: rgb(255, 110, 110);
 }
 

@@ -2,8 +2,8 @@
 .book {
   position: relative;
   border-radius: 10px;
-  width: 440px;
-  height: 600px;
+  width: 880px;
+  height: 1200px;
   background-color: whitesmoke;
   -webkit-box-shadow: 1px 1px 12px #000;
   box-shadow: 1px 1px 12px #000;
@@ -68,7 +68,7 @@
 
 
 p {
-  font-size: 40px;
+  font-size: 80px;
   font-weight: bolder;
 }
 
