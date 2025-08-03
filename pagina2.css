@@ -23,6 +23,7 @@
   justify-content: center;
   color: #000000;
   flex-direction: column;
+  
 }
 
 .cover {
@@ -51,6 +52,7 @@
   -ms-flex-pack: center;
   justify-content: center;
   z-index: 2;
+  text-align: center;
 }
 
 /* Sí, puedes borrar este bloque. No es necesario si no contiene reglas adicionales. */
